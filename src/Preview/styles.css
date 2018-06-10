@@ -1,0 +1,37 @@
+.wrapper {
+  align-self: flex-start;
+  width: 100%;
+  margin: -10px;
+  position: relative;
+  transition: all .3s linear;
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+}
+
+.list h4 {
+  color: #4078c0;
+  font-family: Helvetica, Arial, Sans-Serif;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-weight: normal;
+}
+
+.list li {
+  font-family: Helvetica, Arial, Sans-Serif;
+  height: auto;
+  display: list-item;
+  border-bottom: none;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.list li:focus {
+  color: white;
+}
+
+.list li:focus h4 {
+  color: white !important;
+}
