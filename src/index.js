@@ -59,7 +59,7 @@ export const fn = ({ term, actions, display, settings }) => {
         id: confluenceId,
         icon: confluenceIcon,
         order,
-        title: `Search confluence`,
+        title: `Search Confluence`,
         onSelect: () => searchConfluence(cTerm),
         getPreview: () => <Preview query={cTerm} key={cTerm} open={open} settings={settings} target="confluence" />
       });
@@ -80,7 +80,7 @@ export const fn = ({ term, actions, display, settings }) => {
         id: jiraId,
         icon: jiraIcon,
         order,
-        title: `Search jira`,
+        title: `Search Jira`,
         onSelect: () => searchJira(jTerm),
         getPreview: () => <Preview query={jTerm} key={jTerm} open={open} settings={settings} target="jira" />
       });
@@ -101,7 +101,7 @@ export const fn = ({ term, actions, display, settings }) => {
         id: jiraId,
         icon: jiraIcon,
         order,
-        title: `Due tasks in jira`,
+        title: `Due tasks in Jira`,
         onSelect: () => searchJira(jTerm),
         getPreview: () => <Preview query={jTerm} key={jTerm} open={open} settings={settings} target={jTerm} />
       });

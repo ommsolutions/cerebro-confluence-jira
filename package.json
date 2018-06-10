@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Confluence and Jira search plugin from cerebro",
   "license": "MIT",
-  "repository": "ommsolutions/cerebro-confluence-jira",
+  "repository": "https://github.com/ommsolutions/cerebro-confluence-jira",
   "author": {
     "name": "Olaf Horstmann",
     "email": "oh@omm-solutions.de",
