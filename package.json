@@ -1,5 +1,5 @@
 {
-  "name": "confluence-jira",
+  "name": "@omm/cerebro-confluence-jira",
   "version": "0.1.0",
   "description": "Confluence and Jira search plugin from cerebro",
   "license": "MIT",
